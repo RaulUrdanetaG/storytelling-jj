@@ -16,10 +16,18 @@ export default function Scenario1({ setScreen }) {
           width: "1920px",
           height: "1080px",
         },
+        {
+          type: "image",
+          src: "/scenario1/mage.gif",
+          top: "184px",
+          left: "1012px",
+          width: "815px",
+          height: "815px",
+        },
       ],
     },
     {
-      background: "/background/bg1.jpg",
+      background: "/background/bg2.jpg",
       elements: [
         {
           type: "image",
@@ -93,7 +101,7 @@ export default function Scenario1({ setScreen }) {
       ],
     },
     {
-      background: "/background/bg1.jpg",
+      background: "/background/bg2.jpg",
       elements: [
         {
           type: "image",

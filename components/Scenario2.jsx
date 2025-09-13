@@ -19,7 +19,7 @@ export default function Scenario2({ setScreen }) {
       ],
     },
     {
-      background: "/background/bg1.jpg",
+      background: "/background/bg2.jpg",
       elements: [
         {
           type: "image",
