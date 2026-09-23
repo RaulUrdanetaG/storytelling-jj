@@ -6,44 +6,52 @@ import gsap from "gsap";
 export default function Scenario2({ setScreen }) {
   const scenes = [
     {
-      background: "/background/questionBg.png",
+      background: "/background/bg2.png",
       elements: [
         {
           type: "image",
           src: "/scenario2/question.png",
-          top: "0px",
-          left: "0px",
-          width: "1920px",
-          height: "1080px",
+          top: "461px",
+          left: "764px",
+          width: "945px",
+          height: "255px",
         },
       ],
     },
     {
-      background: "/background/bg2.jpg",
+      background: "/background/defaultBg.png",
       elements: [
         {
           type: "image",
           src: "/scenario2/title.png",
-          top: "83px",
-          left: "73px",
-          width: "1752px",
-          height: "223px",
+          top: "93px",
+          left: "132px",
+          width: "1524px",
+          height: "108px",
         },
         {
           type: "image",
-          src: "/scenario2/map1.jpg",
-          top: "340px",
-          left: "465px",
-          width: "990px",
-          height: "453px",
+          src: "/scenario2/map1.png",
+          top: "281px",
+          left: "301px",
+          width: "1317px",
+          height: "583px",
+        },
+        {
+          type: "image",
+          src: "/scenario2/grey.png",
+          top: "872px",
+          left: "0px",
+          width: "1910px",
+          height: "55px",
         },
         {
           type: "image",
           src: "/scenario2/bib.png",
-          top: "849px",
-          left: "60px",
-          width: "1799px",
-          height: "159px",
+          top: "939px",
+          left: "251px",
+          width: "1002px",
+          height: "71px",
         },
       ],
     },
@@ -69,7 +77,7 @@ export default function Scenario2({ setScreen }) {
       const middleIndex = 1; // la imagen del medio
       updated[middleIndex] = {
         ...updated[middleIndex],
-        src: "/scenario2/map2.jpg",
+        src: "/scenario2/map2.png",
       };
       setCurrentElements(updated);
       setMiddleChanged(true);

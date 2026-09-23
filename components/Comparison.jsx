@@ -32,7 +32,7 @@ export default function Comparison({ setScreen }) {
 
   return (
     <div className="comparison-bg flex justify-center items-start h-screen w-screen">
-      <div className="grid grid-cols-3 gap-10 pt-[150px]">
+      <div className="grid grid-cols-3 gap-10 pt-[220px]">
         {cards.map((card) => (
           <div
             key={card.id}

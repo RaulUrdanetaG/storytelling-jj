@@ -28,7 +28,7 @@ body {
 .comparison-bg {
   margin: 0; /* Elimina el margen por defecto del body */
   padding: 0; /* Elimina el padding por defecto del body */
-  background-image: url("/background/comparisonBg.jpg");
+  background-image: url("/background/comparisonBg.png");
   background-size: cover; /* Ajusta la imagen para cubrir todo el body */
   background-position: center; /* Centra la imagen en el body */
   background-repeat: repeat;
